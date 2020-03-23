@@ -43,7 +43,7 @@ class TestGroupArrayElements(unittest.TestCase):
         self.assertExceptionThrown( 4, 9, Exception, "N: 9 is greater than length of array: 4")
 
     def test_exceptionEmptyArray(self):
-        self.assertExceptionThrown( 0, 2, Exception,"Array is empty and cannot be divided by N: 2")
+        self.assertExceptionThrown( 0, 2, Exception,"Array is empty and cannot be divided into N: 2 parts")
 
     def test_exceptionNisNotInteger(self):
         self.assertExceptionThrown( 5, 3.2, Exception, "N: 3.2 needs to be an integer")

@@ -42,6 +42,6 @@ def groupArrayElements(array, N):
     else:
         # Exceptions if array is empty and if N is greater than length of array
         if arrayLength == 0:
-            raise Exception("Array is empty and cannot be divided by N: {}".format(N))
+            raise Exception("Array is empty and cannot be divided into N: {} parts".format(N))
         else:
             raise Exception("N: {} is greater than length of array: {}".format(N, arrayLength))
